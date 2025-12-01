@@ -1,0 +1,170 @@
+/* Custom styles for the Job Application Manager */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    border-top: 1px solid #e9ecef;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Custom status badge colors */
+.badge-secondary {
+    background-color: #6c757d;
+}
+
+.badge-primary {
+    background-color: #007bff;
+}
+
+.badge-info {
+    background-color: #17a2b8;
+}
+
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}
+
+/* Card hover effects */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Dashboard page */
+.card .btn-primary {
+    transition: all 0.3s ease;
+}
+
+.card .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-columns {
+        column-count: 1;
+    }
+}
+
+/* Modal adjustments */
+.modal-content {
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.modal-header {
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Badge styling */
+.badge {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.25rem;
+}
+
+/* Login/Register cards */
+.card.shadow {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+}
+
+/* Dark Mode Specific Styles */
+[data-bs-theme="dark"] .card {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5) !important;
+}
+
+[data-bs-theme="dark"] .card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7) !important;
+}
+
+[data-bs-theme="dark"] .fc-theme-standard td,
+[data-bs-theme="dark"] .fc-theme-standard th {
+    border-color: #444;
+}
+
+[data-bs-theme="dark"] .fc-theme-standard .fc-scrollgrid {
+    border-color: #444;
+}
+
+/* Dark mode toggle styles */
+.form-switch .form-check-input {
+    cursor: pointer;
+}
+
+.form-check-label i {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* FullCalendar Dark Mode Adjustments */
+[data-bs-theme="dark"] .fc-theme-standard .fc-list-day-cushion {
+    background-color: #343a40;
+}
+
+[data-bs-theme="dark"] .fc-theme-standard .fc-col-header-cell {
+    background-color: #343a40;
+}
+
+[data-bs-theme="dark"] .fc-theme-standard .fc-day-today {
+    background-color: rgba(81, 81, 81, 0.3) !important;
+}
+
+/* Navbar Adjustments for Dark Mode */
+[data-bs-theme="dark"] .navbar-dark {
+    background-color: #212529 !important;
+}
+
+[data-bs-theme="dark"] .footer {
+    background-color: #212529 !important;
+}
+
+/* Calendar Event Colors for Dark Mode */
+[data-bs-theme="dark"] .fc-daygrid-event {
+    color: white !important;
+}

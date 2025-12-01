@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block title %}Job Portals - Job Tracker{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-12 text-center">
+        <h1 class="display-4 mb-4">Job Tracker</h1>
+        <div class="d-flex justify-content-center mb-4">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('dashboard') }}">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="{{ url_for('portals') }}">Job Portals</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 mb-4">
+        <div class="card shadow">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">Popular Job Portals</h4>
+            </div>
+            <div class="card-body">
+                <p class="lead">Find your next opportunity through these popular job search platforms.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <!-- LinkedIn -->
+    <div class="col">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">LinkedIn</h5>
+                <p class="card-text">Professional networking site with millions of job listings and opportunities to connect with recruiters.</p>
+                <a href="https://www.linkedin.com/jobs/" target="_blank" class="btn btn-primary">Visit LinkedIn Jobs</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Indeed -->
+    <div class="col">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">Indeed</h5>
+                <p class="card-text">One of the largest job search engines with positions across industries and experience levels.</p>
+                <a href="https://www.indeed.com/" target="_blank" class="btn btn-primary">Visit Indeed</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Glassdoor -->
+    <div class="col">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">Glassdoor</h5>
+                <p class="card-text">Find jobs and research companies with insider reviews and salary information.</p>
+                <a href="https://www.glassdoor.com/index.htm" target="_blank" class="btn btn-primary">Visit Glassdoor</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Monster -->
+    <div class="col">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">Monster</h5>
+                <p class="card-text">Global employment website with tools for job searching and career management.</p>
+                <a href="https://www.monster.com/" target="_blank" class="btn btn-primary">Visit Monster</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ZipRecruiter -->
+    <div class="col">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">ZipRecruiter</h5>
+                <p class="card-text">Employment marketplace that uses AI technology to match candidates with employers.</p>
+                <a href="https://www.ziprecruiter.com/" target="_blank" class="btn btn-primary">Visit ZipRecruiter</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- AngelList -->
+    <div class="col">
+        <div class="card h-100 shadow">
+            <div class="card-body">
+                <h5 class="card-title">AngelList</h5>
+                <p class="card-text">Specialized platform for startups and tech companies, great for finding roles in innovative companies.</p>
+                <a href="https://angel.co/jobs" target="_blank" class="btn btn-primary">Visit AngelList</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

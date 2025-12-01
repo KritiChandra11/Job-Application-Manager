@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Job Tracker{% endblock %}
+
+{% block content %}
+<div class="row mt-5 justify-content-center">
+    <div class="col-md-8 text-center">
+        <h1 class="display-3">Welcome to Job Tracker</h1>
+        <p class="lead">Manage your job applications and interviews efficiently in one place.</p>
+        <div class="mt-5">
+            <a href="{{ url_for('login') }}" class="btn btn-primary btn-lg me-3">Login</a>
+            <a href="{{ url_for('register') }}" class="btn btn-outline-primary btn-lg">Register</a>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card shadow h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-calendar-check fs-1 text-primary mb-3"></i>
+                <h3>Track Applications</h3>
+                <p>Keep track of all your job applications in one place with status updates.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-bell fs-1 text-primary mb-3"></i>
+                <h3>Interview Management</h3>
+                <p>Never miss an interview with our calendar-based tracking system.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card shadow h-100">
+            <div class="card-body text-center">
+                <i class="bi bi-graph-up fs-1 text-primary mb-3"></i>
+                <h3>Job Portal Links</h3>
+                <p>Quick access to popular job portals to find your next opportunity.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

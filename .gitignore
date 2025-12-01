@@ -1,0 +1,57 @@
+# Environment & Secrets
+venv/
+.env
+.env.local
+*.key
+
+# Database (Docker volumes)
+mysql_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+instance/
+
+# User Uploads (keep structure, ignore content)
+uploads/*
+!uploads/.gitkeep
+!uploads/README.md
+
+# Logs
+*.log
+logs/
+error_log
+access_log
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+*.temp
+
+# PHP specific
+vendor/
+composer.lock
+
+# Docker (optional - if you want to ignore local docker data)
+# docker-compose.override.yml
+
+# Test/Debug files (optional - uncomment if you don't want to include)
+# scripts/test_*.php
+# scripts/session_debug.php

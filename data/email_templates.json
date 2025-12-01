@@ -1,0 +1,202 @@
+[
+  {
+    "category": "Cold Outreach",
+    "subject": "Introduction & Opportunity to Connect",
+    "body": "Hi {Name},\nI hope you're doing well. My name is {Your Name}. I\u2019ve been following your work at {Company}. I believe my experience in {Skill} aligns with your team's work.\nWould you be open to a short conversation?\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Collaboration Inquiry",
+    "body": "Hi {Name},\nI admire your work in {Domain}. I would love to explore collaboration possibilities.\nLet me know a suitable time to connect.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Career Guidance Request",
+    "body": "Hi {Name},\nI recently came across your profile and was inspired by your career path in {Field}. I would appreciate your guidance.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Job Interest Introduction",
+    "body": "Hi {Name},\nI\u2019m reaching out to express my interest in opportunities in {Department}. My background includes {Key Skill}.\nCan we connect?\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Cold DM via LinkedIn",
+    "body": "Hi {Name},\nI found your profile inspiring! I\u2019d love to connect and learn about your experience in {Industry}.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Inquiry for Internship",
+    "body": "Hi {Name},\nI\u2019m a student pursuing {Degree}. I am seeking an internship at {Company}. I have worked on {Skill/Project}. Could you guide me?\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Project Collaboration",
+    "body": "Hi {Name},\nYour project on {Topic} caught my interest. I would love to work with you if you need contributors.\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Request for Referral",
+    "body": "Hi {Name},\nI saw that your company is hiring for {Role}. I\u2019m confident my experience aligns well. May I request a referral?\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "Startup Founder Outreach",
+    "body": "Hi {Name},\nYour startup\u2019s mission in {Sector} is impressive. I'd love to explore ways I can contribute.\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Cold Outreach",
+    "subject": "General Networking",
+    "body": "Hi {Name},\nHope you're doing great! I\u2019m looking to connect with professionals in {Field}. Would love to connect.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Follow-Up on Previous Email",
+    "body": "Hi {Name},\nJust following up regarding my previous email.\nLooking forward to your response.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Checking In",
+    "body": "Hi {Name},\nHope you're doing well. Just checking in to see if you got a chance to review my earlier message.\nThank you!\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Follow-Up After No Response",
+    "body": "Hi {Name},\nI wanted to gently follow up in case my previous email got missed.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Reminder for Scheduled Discussion",
+    "body": "Hi {Name},\nJust reminding about our planned discussion for {Date/Topic}. Please confirm the timing.\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Follow-Up After Referral Request",
+    "body": "Hi {Name},\nFollowing up on my referral request. Kindly let me know if you need additional details.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Follow-Up After Interview",
+    "body": "Hi {Name},\nI enjoyed our conversation recently and just wanted to follow up on the interview status.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Follow-Up After Networking Call",
+    "body": "Hi {Name},\nThanks again for the call. Following up to see if there are opportunities to collaborate or learn further.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Follow-Up on Job Application",
+    "body": "Hi {Name},\nI wanted to check on the status of my application for {Role}. I remain very interested.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Follow-Up With Additional Info",
+    "body": "Hi {Name},\nFollowing up and attaching additional information you requested.\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Follow-up",
+    "subject": "Polite Nudge",
+    "body": "Hi {Name},\nJust giving a polite nudge on this.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Interview",
+    "body": "Hi {Name},\nThank you for the interview opportunity. I enjoyed learning more about the position.\nBest regards,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Networking Call",
+    "body": "Hi {Name},\nThank you for taking the time to speak with me. I really appreciate your insights.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Referral",
+    "body": "Hi {Name},\nThank you so much for referring me. I truly appreciate your support.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "General Appreciation",
+    "body": "Hi {Name},\nJust wanted to say thank you for your support and guidance.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Job Offer",
+    "body": "Hi {Name},\nThank you for offering me the role. I'm excited and grateful.\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Career Advice",
+    "body": "Hi {Name},\nThank you for your valuable guidance. It was very helpful to me.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "Thanking Mentor",
+    "body": "Hi {Name},\nThank you for mentoring me. I appreciate everything you\u2019ve shared.\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Workshop",
+    "body": "Hi {Name},\nThank you for the informative session. I learned a lot.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Conference Meetup",
+    "body": "Hi {Name},\nIt was great meeting you at {Event}. Thank you for the insightful conversation.\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Thank You",
+    "subject": "After Help with Project",
+    "body": "Hi {Name},\nThank you for helping me with {Task/Project}. I appreciate it!\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Negotiation After Offer",
+    "body": "Hi {Name},\nThank you for the offer. Could we discuss a possible revision in the salary considering my experience?\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Counter Offer Request",
+    "body": "Hi {Name},\nI appreciate the offer. Based on market standards, I would like to request {Amount}. Looking forward.\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Compensation Package Discussion",
+    "body": "Hi {Name},\nI would like to discuss the compensation package further to ensure it aligns with my contributions.\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Benefits Discussion",
+    "body": "Hi {Name},\nApart from salary, I\u2019d like to discuss benefits such as insurance, bonus structure, and leave policy.\nThank you,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Negotiation Based on Experience",
+    "body": "Hi {Name},\nGiven my skills in {Skill} and experience in {Domain}, may we revisit the offered salary?\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Remote Work + Salary Adjustment",
+    "body": "Hi {Name},\nThank you for the offer. Would it be possible to discuss a hybrid/remote option or compensation adjustment?\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Revisiting Offer After Competing Offer",
+    "body": "Hi {Name},\nI received another offer, but I\u2019m very interested in this role. Could we adjust compensation to {Amount}?\nRegards,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Request for Joining Bonus",
+    "body": "Hi {Name},\nThanks for the offer. Would a joining bonus be possible to support relocation/transition?\nBest,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Stipend Negotiation for Internship",
+    "body": "Hi {Name},\nI am grateful for the internship offer. May we discuss a stipend adjustment considering living expenses?\nThanks,\n{Your Name}"
+  },
+  {
+    "category": "Salary Negotiation",
+    "subject": "Performance-Based Increase Request",
+    "body": "Hi {Name},\nI'm happy to accept. Could we include a performance review after {Time} for potential increment?\nThanks,\n{Your Name}"
+  }
+]
