@@ -1,53 +1,155 @@
-# Job Application Manager
+# Job Application Manager 📊
 
-A web-based application built with PHP and MySQL to help users track job applications, interviews, and related events.
+A comprehensive full-stack web application designed to streamline the job search process by tracking applications, managing interviews, organizing documents, and maintaining professional networking contacts.
 
-## Features
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![PHP Version](https://img.shields.io/badge/PHP-8.3-blue.svg)
+![Python Version](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)
 
-- **User Authentication**: Register, login, and manage your profile
-- **Dashboard**: View and manage all your job applications in one place
-- **Job Portals**: Quick access to popular job search websites
-- **Calendar**: Track interview dates and important events
-- **Document Management**: Store resumes, cover letters, and other job-related documents
-- **Analytics**: Gain insights into your job application process
-- **Networking Contacts**: Keep track of professional connections
-- **Responsive Design**: Works on desktop and mobile devices
+## 🌟 Key Features
 
-## Tech Stack
+### Application Tracking
+- **Status Management**: Track applications through multiple stages (Pending, Applied, Interview, Offer, Rejected)
+- **Company Details**: Store company names, job titles, application dates, and descriptions
+- **Bulk Management**: View and manage all applications in a centralized dashboard
 
-- **Backend**: PHP 8.3
-- **Database**: MySQL
-- **Frontend**: HTML, CSS, JavaScript
-- **UI Framework**: Bootstrap 4
-- **Icons**: Bootstrap Icons
+### 📅 Calendar & Interview Management
+- **Interactive Calendar**: FullCalendar integration for visual scheduling
+- **Interview Scheduling**: Schedule interviews, deadlines, and follow-up reminders
+- **Event Types**: Categorize events (Interview, Deadline, Follow-up, Other)
+- **Status Tracking**: Monitor interview outcomes and update statuses
+- **Reminder System**: Set reminders for upcoming events
 
-## Installation
+### 📄 Document Management
+- **File Upload**: Store resumes, cover letters, offer letters, and rejection letters
+- **Company Association**: Link documents to specific companies
+- **Document Types**: Organize by categories (Resume, Cover Letter, Offer, Rejection, Other)
+- **Easy Access**: Quick download and view capabilities
+- **Search**: Filter documents by name, type, or company
 
-### Standard Installation
+### 📝 Interview Preparation
+- **Detailed Notes**: Create comprehensive notes for each interview
+- **Company Research**: Document company information and position details
+- **Question Preparation**: Store answers to common interview questions
+- **Resource Links**: Quick access to interview preparation resources
+- **History Tracking**: Maintain historical records of all interviews
 
-1. Clone the repository to your web server directory:
-   ```bash
-   git clone https://github.com/username/job-application-manager.git
-   ```
-2. Create a MySQL database:
-   ```sql
-   CREATE DATABASE job_tracker;
-   ```
-3. Update the database configuration in `config.php`:
-   ```php
-   $db_host = 'localhost';  // Your database host
-   $db_name = 'job_tracker'; // Your database name
-   $db_user = 'root';       // Your database username
-   $db_pass = '';           // Your database password
-   ```
-4. Run the database initialization script:
-   ```bash
-   php init_db.php
-   ```
-5. Access the application in your web browser:
-   ```
-   http://localhost/job-application-manager/
-   ```
+### 📧 Email Templates
+- **40+ Templates**: Pre-written professional email templates
+- **Categories**: Organized by purpose (Outreach, Follow-up, Thank You, Negotiation)
+- **Personalization**: Easy variable replacement (Name, Company, Position)
+- **Copy to Clipboard**: Quick copy functionality
+- **Search & Filter**: Find the right template quickly
+
+### 🤝 Professional Networking
+- **Contact Management**: Store details of professional contacts
+- **Interaction History**: Track all communications and meetings
+- **Follow-up Reminders**: Get notified when contacts need follow-up
+- **Relationship Tracking**: Categorize contacts by relationship type
+- **LinkedIn Integration**: Store LinkedIn profile URLs
+
+### 📈 Analytics Dashboard
+- **Visual Statistics**: Charts showing application distribution
+- **Success Metrics**: Track interview-to-offer conversion rates
+- **Status Overview**: See application status breakdown
+- **Calendar Analytics**: Monitor upcoming vs. completed events
+
+### 🔗 Quick Access Features
+- **Job Portal Links**: Direct links to 10+ popular job search websites
+- **Industry-Specific Portals**: Access to specialized job boards
+- **Resource Hub**: Curated links to career resources
+
+## 🛠️ Tech Stack
+
+### Backend
+- **PHP 8.3**: Primary backend with Apache server
+- **Flask 3.0.0**: Alternative Python implementation
+- **RESTful API**: JSON-based API endpoints
+
+### Frontend
+- **Bootstrap 4**: Responsive UI framework
+- **JavaScript/jQuery**: Interactive functionality
+- **FullCalendar.js 5.10.1**: Calendar integration
+- **Chart.js**: Analytics visualization
+
+### Database
+- **MySQL 8.0**: Primary database (Docker)
+- **SQLite**: Alternative database (Flask)
+- **phpMyAdmin**: Database management interface
+
+### DevOps
+- **Docker & Docker Compose**: Containerized deployment
+- **Apache**: Web server
+- **Git**: Version control
+
+## 📋 Prerequisites
+
+- Docker Desktop (Windows/Mac/Linux)
+- Docker Compose
+- Git
+- Web Browser (Chrome, Firefox, Safari, Edge)
+
+### Optional (for Python version)
+- Python 3.11+
+- pip (Python package manager)
+
+## 🚀 Quick Start
+
+### Using Docker (Recommended)
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/KritiChandra11/job-application-manager.git
+cd job-application-manager
+```
+
+2. **Start Docker containers**
+```bash
+docker-compose up -d
+```
+
+3. **Access the application**
+- Main Application: http://localhost:8080
+- phpMyAdmin: http://localhost:8081
+  - Username: `root`
+  - Password: `root`
+
+4. **Create your account**
+- Navigate to http://localhost:8080
+- Click "Register" and create your account
+- Start tracking your job applications!
+
+### Using Flask/Python (Alternative)
+
+1. **Create virtual environment**
+```bash
+python -m venv venv
+```
+
+2. **Activate virtual environment**
+
+**Windows:**
+```bash
+.\venv\Scripts\activate
+```
+
+**Mac/Linux:**
+```bash
+source venv/bin/activate
+```
+
+3. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+4. **Run the application**
+```bash
+python app.py
+```
+
+5. **Access at** http://localhost:5000
 
 ### Docker Installation
 
